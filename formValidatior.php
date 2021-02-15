@@ -15,15 +15,14 @@ class formValidatior
      * @var array
      */
     protected $defaultErrors = [
-        'required' => '{label} zorunlu alandır',
-        'min_lenght' => "{label} en az {value} karakter olabilir",
-        'max_lenght' => '{label} en fazla {value} karakter olabilir',
-        'alphanumeric' => '{label} yalnızca sayı ve harf içerebilir',
-        'alpha' => '{label} yalnızca harf içerebilir',
-        'regex' => '{label} desene uymuyor',
-        'valid_email' => '{value} geçersiz eposta adresi',
-        'numeric' => '{label} yalnızca sayısal değer alabilir',
-        'is_equal' => '{label} eşleşmiyor',
+        'required' => '{label} is required',
+        'min_lenght' => "{label} must be at least {value} characters",
+        'max_lenght' => '{label} can be maximum {value} characters',
+        'alphanumeric' => '{label} must be alphanumeric',
+        'alpha' => '{label} must be alpha',
+        'regex' => '{label} doesnt\' match',
+        'valid_email' => '{value} must be valid email',
+        'numeric' => '{label} must be numeric',
     ];
 
     /**
